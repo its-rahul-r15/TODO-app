@@ -38,19 +38,3 @@
 👤 Your Name: Rahul Sharma
 
 <p align="center">⭐ If you like this project, don’t forget to star the repo! ⭐</p> ```
-
-## 📂 Project Structure
-todo-app/
-│
-├── backend/ # Node.js + Express + MongoDB backend
-│ ├── models/ # Database models
-│ ├── routes/ # API routes
-│ ├── controllers/ # Controller logic
-│ └── server.js # Backend entry point
-│
-├── frontend/ # React frontend
-│ ├── src/ # Components & Pages
-│ ├── public/
-│ └── package.json
-│
-└── README.md
