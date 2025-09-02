@@ -10,7 +10,11 @@ const app = express();
 const port = process.env.PORT || 3000 
 
 //midleware
-app.use(cors())
+app.use(cors({
+  origin: "*",   // abhi test ke liye, baad me apne frontend domain daalna
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 app.use(express.json())
 
 //database connection
