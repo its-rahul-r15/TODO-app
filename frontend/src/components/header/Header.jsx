@@ -16,10 +16,10 @@ const Header = () => {
       <div className="hidden md:flex">
         <nav>
           <ul className="flex gap-6 text-lg cursor-pointer">
-            <Link to={'/todos'}><li>Home</li></Link>
-            <li>Blog</li>
-            <li>Finance</li>
-            <li>Contact</li>
+            <Link to={'/todos'} className='hover:border-b-2 '><li>Home</li></Link>
+            <li className='hover:border-b-2'>Blog</li>
+            <li className='hover:border-b-2'>Finance</li>
+            <li className='hover:border-b-2'>Contact</li>
           </ul>
         </nav>
       </div>

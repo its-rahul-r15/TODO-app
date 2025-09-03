@@ -46,7 +46,7 @@ function TodoList() {
       <div className="w-full ml-3 mr-3 bg-white justify-center items-center shadow-lg rounded-2xl p-6">
         <div className="flex justify-between">
           <h1 className="text-3xl font-bold text-center mb-6">📋 My Todo List</h1>
-        <button onClick={()=> navigate('/createTodo')} className="bg-red-500 text-white p-[10px] rounded-lg hover:bg-red-600">Add</button>
+        <button onClick={()=> navigate('/createTodo')} className="bg-red-500 text-white p-[10px] rounded-lg hover:bg-red-600 cursor-pointer">Add</button>
         </div>
         <ul className="space-y-4 text-center items-center justify-center gap-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
           {todos.map((todo) => (
@@ -61,9 +61,10 @@ function TodoList() {
               <input
   type="checkbox"
   checked={todo.completed}
+  className="cursor-pointer"
   onChange={() => handleToggleComplete(todo._id, todo.completed)}
 />
-              <button onClick={() => deleteTodo(todo._id)} className="bg-red-500 text-white px-3 py-1 rounded-lg hover:bg-red-600">
+              <button onClick={() => deleteTodo(todo._id)} className="bg-red-500 text-white px-3 py-1 rounded-lg hover:bg-red-600 cursor-pointer">
                 Delete
               </button>
             </li>
