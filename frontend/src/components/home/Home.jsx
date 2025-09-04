@@ -12,7 +12,7 @@ const Home = () => {
   <div className="items-center p-6 md:p-12 lg:p-20 xl:p-22 max-w-6xl">
     <h1 className="text-6xl md:text-5xl lg:text-7xl xl:text-7xl font-bold leading-tight">
       Effortless task management,{" "}
-      <span className="text-amber-300">anytime</span>
+      <span className="text-amber-300">anytime</span> 
     </h1>
 
     <p className="mt-5 md:mt-7 font-semibold text-sm md:text-base lg:text-lg">

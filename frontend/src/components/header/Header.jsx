@@ -9,7 +9,7 @@ const Header = () => {
     <div className="flex justify-between items-center m-7">
       {/* Logo */}
       <div className="font-bold text-2xl">
-        <Link to={'/'}><h1>TaskManager</h1></Link>
+        <Link to={'/'}><h1>Task</h1></Link>
       </div>
 
       {/* Desktop Menu */}
